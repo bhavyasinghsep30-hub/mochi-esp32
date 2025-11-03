@@ -1,20 +1,17 @@
 #pragma once
 
 // --- WiFi Configuration ---
-#define WIFI_SSID "Wokwi-GUEST"
-#define WIFI_PASS ""
+#define WIFI_SSID "Recoil_5G"
+#define WIFI_PASS "Encrypted"
 
 // --- Web Server Configuration ---
 #define WEB_SERVER_PORT 5001
 
 // --- Hardware Pins (ESP32-C3) ---
 // I2C for SSD1306 Display
-#define OLED_SDA_PIN 8
-#define OLED_SCL_PIN 9
+#define OLED_SDA_PIN 20
+#define OLED_SCL_PIN 21
 #define OLED_RESET_PIN -1 // -1 if not used
-
-// Buzzer Pin
-#define BUZZER_PIN 6
 
 // Touch Button Pin
 #define TOUCH_PIN 1
